@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5C646AEA-89D0-74D7-C394-F759B9980D8A}</ProjectGuid>
+    <ProjectGuid>{B5D5DF3E-1671-5C6D-651F-C41C008FFC67}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -57,20 +57,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\NotUsed\EnableDisable.cs" />
+    <Compile Include="Assets\Scripts\Temp\DontDestroyMusic.cs" />
     <Compile Include="Assets\Scripts\NotUsed\ChangeButtonImage.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\Temp\SimpleCameraController.cs" />
     <Compile Include="Assets\Scripts\MouseDrag.cs" />
     <Compile Include="Assets\Scripts\TeleportCamera.cs" />
+    <Compile Include="Assets\Scripts\Temp\DestroyMusic.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\KillSprite.cs" />
     <Compile Include="Assets\Scripts\NotUsed\ChangeSound.cs" />
+    <Compile Include="Assets\Scripts\Temp\DontDestroy.cs" />
     <Compile Include="Assets\Scripts\LevelChanger.cs" />
     <Compile Include="Assets\Scripts\NotUsed\TransPause.cs" />
     <Compile Include="Assets\Scripts\NotUsed\ChangeSceneWithButton.cs" />
-    <Compile Include="Assets\Scripts\Temp\SimpleCameraController.cs" />
-    <Compile Include="Assets\Scripts\Temp\DontDestroyMusic.cs" />
-    <Compile Include="Assets\Scripts\Temp\DestroyMusic.cs" />
-    <Compile Include="Assets\Scripts\Temp\DontDestroy.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
