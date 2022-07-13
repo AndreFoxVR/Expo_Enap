@@ -1,12 +1,15 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - ChangeSound
     - DontDestroyMusic
     - KillSprite
     - LevelChanger
     - MouseDrag
     - MouseLook
+    - SwitchAudio
     - UnityTemplateProjects.SimpleCameraController
+    - autoDestroy
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -227,19 +230,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9128}
     - Class: 114
-      Script: {instanceID: 9656}
+      Script: {instanceID: 9654}
     - Class: 114
-      Script: {instanceID: 10070}
+      Script: {instanceID: 10068}
     - Class: 114
-      Script: {instanceID: 10150}
+      Script: {instanceID: 10148}
     - Class: 114
-      Script: {instanceID: 10588}
+      Script: {instanceID: 10586}
     - Class: 114
-      Script: {instanceID: 10662}
+      Script: {instanceID: 10660}
     - Class: 114
-      Script: {instanceID: 10814}
+      Script: {instanceID: 10812}
     - Class: 114
-      Script: {instanceID: 10984}
+      Script: {instanceID: 10982}
+    - Class: 114
+      Script: {instanceID: 92150}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -334,9 +339,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8600}
     - Class: 114
-      Script: {instanceID: 10662}
+      Script: {instanceID: 10660}
     - Class: 114
-      Script: {instanceID: 10814}
+      Script: {instanceID: 10812}
+    - Class: 114
+      Script: {instanceID: 11322}
+    - Class: 114
+      Script: {instanceID: 2468726}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -429,9 +438,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8600}
     - Class: 114
-      Script: {instanceID: 10662}
+      Script: {instanceID: 10660}
     - Class: 114
-      Script: {instanceID: 10814}
+      Script: {instanceID: 10812}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -526,9 +535,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8600}
     - Class: 114
-      Script: {instanceID: 10662}
+      Script: {instanceID: 10660}
     - Class: 114
-      Script: {instanceID: 10814}
+      Script: {instanceID: 10812}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -623,9 +632,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8600}
     - Class: 114
-      Script: {instanceID: 10662}
+      Script: {instanceID: 10660}
     - Class: 114
-      Script: {instanceID: 10814}
+      Script: {instanceID: 10812}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1739,12 +1748,6 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 7f99a09274bfa225d952ed9c0cf027e1
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ChangeSound
-  - hash:
-      serializedVersion: 2
       Hash: ab5cb221d13d9cf2f1d79e352ce5c30b
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Experimental.Rendering
@@ -1989,6 +1992,30 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 7f99a09274bfa225d952ed9c0cf027e1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChangeSound
+  - hash:
+      serializedVersion: 2
+      Hash: 12976bf8caa36ad5c8c45cb1544da624
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: autoDestroy
+  - hash:
+      serializedVersion: 2
+      Hash: aa6138ee6c6f8ba9ad1c9d58cb65d387
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExampleScript
+  - hash:
+      serializedVersion: 2
+      Hash: e89254b675b7acfe7be9bc27dc38d993
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SwitchAudio
   platform: 20
   scenePathNames:
   - Assets/Scenes/00.Expo_Web_0.3.unity
@@ -1996,4 +2023,4 @@ ScriptsOnlyBuild:
   - "Assets/Scenes/02.LenteTecnol\xF3gico.unity"
   - Assets/Scenes/03.LenteSocial.unity
   - Assets/Scenes/04.LenteGovernamental.unity
-  playerPath: E:/03. 3D/PROJETOS/EXPO/Builds/Expo_R4_08
+  playerPath: E:/03. 3D/PROJETOS/EXPO/Builds/Expo_R4_10
