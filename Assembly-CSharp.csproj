@@ -62,18 +62,19 @@
     <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\Temp\SimpleCameraController.cs" />
     <Compile Include="Assets\Scripts\MouseDrag.cs" />
+    <Compile Include="Assets\Scripts\NotUsed\autoDestroy.cs" />
+    <Compile Include="Assets\Scripts\MuteToggle.cs" />
     <Compile Include="Assets\Scripts\NotUsed\TeleportCamera.cs" />
     <Compile Include="Assets\Scripts\Temp\DestroyMusic.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\KillSprite.cs" />
+    <Compile Include="Assets\Scripts\SwitchAudio.cs" />
+    <Compile Include="Assets\Scripts\Temp\ExampleScript.cs" />
     <Compile Include="Assets\Scripts\Temp\DontDestroy.cs" />
     <Compile Include="Assets\Scripts\LevelChanger.cs" />
     <Compile Include="Assets\Scripts\NotUsed\TransPause.cs" />
     <Compile Include="Assets\Scripts\NotUsed\ChangeSceneWithButton.cs" />
-    <Compile Include="Assets\Scripts\ChangeSound.cs" />
-    <Compile Include="Assets\autoDestroy.cs" />
-    <Compile Include="Assets\Scripts\Temp\ExampleScript.cs" />
-    <Compile Include="Assets\Scripts\SwitchAudio.cs" />
+    <Compile Include="Assets\Scripts\Temp\ChangeSound.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
